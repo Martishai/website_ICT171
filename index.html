@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fresh Market</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f6f6f6;
+    text-align: center;
+  }
+
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+  }
+
+  .cart-icon {
+    cursor: pointer;
+    font-size: 1.2rem;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    margin-right: 300px;
+  }
+
+  h2.section-title {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    max-width: 1000px;
+  }
+
+  .product {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 1rem;
+    width: 160px;
+    text-align: center;
+  }
+
+  .product img {
+    width: 100%;
+    max-height: 120px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+
+  .product h3 {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+  }
+
+  .product p {
+    margin: 0.2rem 0 0.6rem;
+  }
+
+  .product button {
+    padding: 0.4rem 0.8rem;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .product button:hover {
+    background-color: #45a049;
+  }
+
+  #cart {
+  	position: fixed;
+  	top: 80px;
+  	right: 20px;
+  	background-color: white;
+  	padding: 1rem;
+  	border-radius: 8px;
+  	width: 260px;
+  	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  	text-align: left;
+	z-index: 1000;
+}
+
+
+
+  #cart ul {
+    padding-left: 1rem;
+  }
+
+  #cart ul li {
+    margin-bottom: 0.5rem;
+  }
+
+  #cart button {
+    margin-top: 0.5rem;
+  }
+
+  .hidden {
+    display: none;
+  }
+</style>
+
+</head>
+<body>
+  <header>
+    <h1>Fresh Market 🍓🥦			Student Number: 35609557</h1>
+    <div class="cart-icon" onclick="toggleCart()">🛒 (<span id="cart-count">0</span>)</div>
+  </header>
+  <section style="max-width: 800px; margin: 2rem auto; text-align: justify; background-color: white; padding: 1.5rem; border-radius: 8px;">
+  <h2>Welcome to FreshMarket!</h2>
+  <p>
+  Welcome to our online sales site for fresh fruit and vegetables! At FreshMarket, we firmly believe that healthy eating starts with good produce. That's why we offer you a selection of juicy fruits and crunchy vegetables, carefully chosen for their freshness and quality. Whether you're a fan of red apples, golden bananas or organic carrots, you'll find what you're looking for here.
+  </p>
+  <p>
+  All our products come from local, environmentally-friendly producers. We give priority to short supply chains to guarantee a reduced ecological impact while supporting local agriculture. What's more, every order is carefully prepared to ensure a pleasant experience from start to finish.
+
+  </p>
+  <p>
+  Our intuitive interface lets you easily add your favorite items to the basket, check the total in real time, and place your order with ease. Our team works daily to improve the platform, expand our catalog, and bring you new offers throughout the year.
+ </p>
+ <p>
+ Thank you for trusting FreshMarket for your everyday shopping. Together, let's make the choice for a more responsible, tasty and sustainable diet. If you have any questions or suggestions, please do not hesitate to contact us. Enjoy your visit and bon appétit!
+ </p>
+ </section>
+
+  <main>
+    <h2 class="section-title">🍎 Fruits</h2>
+    <section id="products-fruits" class="product-list"></section>
+
+    <h2 class="section-title">🥕 Vegetables</h2>
+    <section id="products-vegetables" class="product-list"></section>
+
+    <h3>Selected license: Creative Commons BY-NC-SA 4.0</h3>
+<p>
+I have chosen the Creative Commons Attribution - Non Commercial - Share Alike (BY-NC-SA 4.0) license to protect the content of my educational site. This license allows other students or teachers to view, copy or adapt my work, provided they credit me (student number: 35609557), do not use it for commercial purposes, and share any modified version under the same license. This encourages knowledge sharing while preventing abusive or commercial reuse of my project.
+</p>
+<img src="https://mirrors.creativecommons.org/presskit/icons/by-nc-sa.svg" width="120" alt="Licence CC BY-NC-SA"/>
+
+    <section id="cart">
+      <h2>🛒 Cart (<span id="cart-count">0</span>)</h2>
+      <ul id="cart-items"></ul>
+      <p>Total: <span id="cart-total">0.00</span> AUD</p>
+      <button onclick="clearCart()">Clear Cart</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
