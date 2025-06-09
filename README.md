@@ -42,7 +42,7 @@ The goal was to deploy a cloud web server (AWS EC2), configure it to serve a pub
 ├── check_ssh_logins.sh
 ├── rapport-ICT171.pdf
 └── README.md
-
+```
 
  ## Documentation
 
