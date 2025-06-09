@@ -2,7 +2,7 @@
 
 **Name:** Martin MIGNARDOT  
 **Student ID:** 35609557  
-**Server URL:** https://ict171-martin.duckdns.org
+**Server URL:** https://ict171-martin.duckdns.org  
 **Server IP:** 52.62.61.188  
 
 ---
