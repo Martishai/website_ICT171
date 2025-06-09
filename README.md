@@ -29,7 +29,6 @@ Repository Structure
 │   └── style.css
 ├── js/
 │   └── script.js
-├── script.js
 ├── images/
 │   ├── carotte.jpg
 │   ├── laitue.jpg
