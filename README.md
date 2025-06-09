@@ -50,4 +50,4 @@ The goal was to deploy a cloud web server (AWS EC2), configure it to serve a pub
 
  ## Video Explainer
 
-  https://youtu.be/VOTRE-LIEN-YOUTUBE
+  https://youtu.be/iyq_0FIFURM
