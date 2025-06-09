@@ -44,27 +44,6 @@ The goal was to deploy a cloud web server (AWS EC2), configure it to serve a pub
 └── README.md
 
 
-## Repository Structure
-
-```text
-Repository Structure
-.
-├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-├── images/
-│   ├── carotte.jpg
-│   ├── laitue.jpg
-│   ├── poivron.jpg
-│   └── raison.jpg
-├── check_ssh_logins.sh
-├── rapport-ICT171.pdf
-└── README.md
-```
-
-
  ## Documentation
 
  The full setup process, screenshots, commands, and explanation of the scripts used are all provided in.
