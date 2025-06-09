@@ -48,6 +48,7 @@ The goal was to deploy a cloud web server (AWS EC2), configure it to serve a pub
 
  The full setup process, screenshots, commands, and explanation of the scripts used are all provided in [Cloud Server Project & Video Explainer ICT171 Assignment 2 - 2025.pdf](Cloud%20Server%20Project%20%26%20Video%20Explainer%20ICT171%20Assignment%202%20-%202025.pdf).
 
+
  ## Video Explainer
 
   https://youtu.be/iyq_0FIFURM
