@@ -1,14 +1,20 @@
 # ICT171 Assignment 2 - Web Server
 
-**Name:** Martin MIGNARDOT
-**Student ID:** 35609557
-**Server URL:**
-**Server IP:**
+**Name:** Martin MIGNARDOT  
+**Student ID:** 35609557  
+**Server URL:** http://52.62.61.188  
+**Server IP:** 52.62.61.188  
 
-## Project Overview
+---
+
+## 📄 Project Overview
 
 This repository contains the files and documentation for my Assignment 2 in ICT171.  
 The goal was to deploy a cloud web server (AWS EC2), configure it to serve a public website, and document the process step by step.
+
+---
+
+## ✅ What’s included
 
 - HTML/CSS/JS website hosted on an Apache2 Ubuntu server
 - Interactive shopping cart (JavaScript)
@@ -18,6 +24,25 @@ The goal was to deploy a cloud web server (AWS EC2), configure it to serve a pub
 - Link to a video explainer
 
 ---
+
+## 📁 Repository Structure
+
+```text
+.
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+├── images/
+│   ├── carotte.jpg
+│   ├── laitue.jpg
+│   ├── poivron.jpg
+│   └── raison.jpg
+├── check_ssh_logins.sh
+├── rapport-ICT171.pdf
+└── README.md
+
 
 ## Repository Structure
 
