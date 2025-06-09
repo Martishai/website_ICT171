@@ -7,14 +7,14 @@
 
 ---
 
-## 📄 Project Overview
+## Project Overview
 
 This repository contains the files and documentation for my Assignment 2 in ICT171.  
 The goal was to deploy a cloud web server (AWS EC2), configure it to serve a public website, and document the process step by step.
 
 ---
 
-## ✅ What’s included
+## What’s included
 
 - HTML/CSS/JS website hosted on an Apache2 Ubuntu server
 - Interactive shopping cart (JavaScript)
@@ -25,7 +25,7 @@ The goal was to deploy a cloud web server (AWS EC2), configure it to serve a pub
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 .
